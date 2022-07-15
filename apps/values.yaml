@@ -1,6 +1,6 @@
 spec:
   destination:
-    server: https://kubernetes.default.svc
+    name: mk-multi-vb-2 
   source:
-    repoURL: https://github.com/argoproj/argocd-example-apps
+    repoURL: https://github.com/theoppermanian/argocd-example-apps
     targetRevision: HEAD
