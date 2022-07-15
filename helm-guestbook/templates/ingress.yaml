@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: guestbook-ingress
   namespace: {{ .Release.namespace }}
-  annoations:
+  annotations:
       kubernetes.io/ingress.class: "nginx"
       nginx.ingress.kubernetes.io/ssl-redirect: "true"
       nginx.ingress.kubernetes.io/force-ssl-redirect: "true"
